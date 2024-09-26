@@ -87,3 +87,6 @@ Add a file to the "GitTutorial Changes" folder. You can call it your name or wha
 
 When you are done, follow the same steps as before. ```git pull```, ```git add -A```, ```git commit -m "<Short message>"```, ```git push```.
 
+Your git push should return an error similar to this:
+![](../Assets/gitPushError.png)
+This is because you've only created your branch locally, so Git doesn't know where you want to push you changes on the remote repository. You can just run the command it tells you to ```git push --set-upstream origin <BranchName>``` and it will create your new branch on the remote repository and push your changes to it.
