@@ -95,6 +95,6 @@ This is because you've only created your branch locally, so Git doesn't know whe
 
 Now, you will create a pull request to have your changes merged to main. Open the GitHub repo (ADD LINK TO REPO HERE). Switch to your branch, open the "Contribute" dropdown and select "Open pull request". Now, you must enter a title and description about the changes made on this branch. Also make sure the top bar has the base set to main or whatever branch you want to merge into and the compare should be your branch. When you're done, you can click the "Create pull request" button at the bottom right. 
 
-[![](https://github.com/jostal/firmware_onboarding/blob/main/Assets/PR.mp4)](https://github.com/jostal/firmware_onboarding/blob/main/Assets/PR.mp4)
+[![Create a PR](https://github.com/jostal/firmware_onboarding/blob/main/Assets/PR.mp4)](https://github.com/jostal/firmware_onboarding/blob/main/Assets/PR.mp4)
 
 You'll see a "Merge pull request" button, but you shouldn't click it. First, someone else should review the pull request and your changes. They may leave comments on the pull request with feedback so you can make further changes before merging. Then, the reviewer will merge the pull request and you changes will be on main.
