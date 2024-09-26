@@ -73,6 +73,3 @@ git config --global user.name "<your name here>"
 
 With the repo cloned, you can view the existing branches with ```git branch```.
 
-- HAVE THEM SWITCH TO EXISTIG BRANCH AND MAKE CHANGES
-- HAVE THEM CREATE THEIR OWN BRANCH
-- HAVE THEM CREATE PR
