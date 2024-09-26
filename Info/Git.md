@@ -88,12 +88,14 @@ Add a file to the "GitTutorial Changes" folder. You can call it your name or wha
 When you are done, follow the same steps as before. ```git pull```, ```git add -A```, ```git commit -m "<Short message>"```, ```git push```.
 
 Your git push should return an error similar to this:
+
 ![](../Assets/gitPushError.png)
+
 This is because you've only created your branch locally, so Git doesn't know where you want to push you changes on the remote repository. You can just run the command it tells you to ```git push --set-upstream origin <BranchName>``` and it will create your new branch on the remote repository and push your changes to it.
 
 Now, you will create a pull request to have your changes merged to main. Open the GitHub repo (ADD LINK TO REPO HERE). Switch to your branch, open the "Contribute" dropdown and select "Open pull request". Now, you must enter a title and description about the changes made on this branch. Also make sure the top bar has the base set to main or whatever branch you want to merge into and the compare should be your branch. When you're done, you can click the "Create pull request" button at the bottom right. 
 
-![](../Assets/PR.mp4)
+[![](../Assets/PR.mp4)](../Assets/PR.mp4)
 
 You'll see a "Merge pull request" button, but you shouldn't click it. First, someone else should review the pull request and your changes. They may leave comments on the pull request with feedback so you can make further changes before merging. Then, the reviewer will merge the pull request and you changes will be on main.
 
