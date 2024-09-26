@@ -71,8 +71,19 @@ git config --global user.email "<email here>"
 git config --global user.name "<your name here>"
 ```
 
-With the repo cloned, you can view the existing branches with ```git branch```.
+With the repo cloned, you can view the existing branches with ```git branch```. There should be a branch called "NewFeature". Switch to that branch with ```git checkout NewFeature```.
 
-- HAVE THEM SWITCH TO EXISTIG BRANCH AND MAKE CHANGES
-- HAVE THEM CREATE THEIR OWN BRANCH
-- HAVE THEM CREATE PR
+Now that you are in the NewFeature branch, you should see a folder that wasn't there before "Git Tutorial Files". Open "NewFeature.txt" and make some changes, doesn't matter what.
+
+When you are done with your changes, you can check the status of your repository with ```git status```. Right now, it should tell you that NewFeature.txt is not staged for commit. To stage a specific file, you can run ```git add <PATH TO FILE>``` or ```git add -A``` to add all files in the repository.
+
+Now if you check ```git status```, you'll see the file is staged but still needs to be commited. Run ```git commit -m "<Short message about changes>"```. Then, you can ```git pull``` to make sure your local branch is still up to date (if it's not, you'll have to make another commit with the new changes. You could also run this before you make your commit if you want it all in one commit) and then ```git push``` to push your changes to the remote repository. If you view the branch on GitHub, you should now see your changes.
+
+Once you're changes have been pushed, switch back to the main branch with ```git checkout main```. Your changes should now be gone, since they have not been merged with the main branch. If you switch back, you will find them still there on the NewFeature branch.
+
+Now, you will create your own branch and create a pull request for it to be merged with main. Run ```git checkout -b <BranchName>``` where "\<BranchName\>" is your name or initials.
+
+Add a file to the "GitTutorial Changes" folder. You can call it your name or whatever you want. Make some changes to any other existing files if you'd like or even create some subfolders.
+
+When you are done, follow the same steps as before. ```git pull```, ```git add -A```, ```git commit -m "<Short message>"```, ```git push```.
+
