@@ -1,3 +1,9 @@
+## Table of Contents
+- [Linux (Ubuntu)](#linux-ubuntu)
+  - [Using a Virtual Machine](#using-a-virtual-machine)
+  - [Using WSL](#using-wsl)
+  - [Dual Booting](#dual-booting)
+
 # Linux (Ubuntu)
 Ubuntu is one of the most popular Linux distributions with plenty of documentation and help available online. It can be run in a virtual machine (VM), using WSL, or installed directly on your computer and dual-booted alongside Windows.
 

@@ -1,3 +1,10 @@
+## Table of Contents
+- [Git and GitHub](#git-and-github)
+  - [Git](#git)
+    - [Guidelines](#guidelines)
+  - [GitHub](#github)
+  - [Tutorial](#tutorial)
+
 # Git and GitHub
 Git is a very useful tool for managing source code and collaboration with others. It allows easy tracking of changes to code, the creation of different branches of code, and the merging of these different branches.
 
@@ -56,11 +63,11 @@ Here is a quick tutorial to show you the basics.
 
 Once Git is installed, you can clone this repository using:
 
-``` git clone https://github.com/ugrt/REPO_NAME ``` (HTTPS)
+``` git clone https://github.com/ugrt/firmware_onboarding ``` (HTTPS)
 
 or 
 
-``` git clone git@github.com:ugrt/REPO_NAME.git ``` (SSH)
+``` git clone git@github.com:ugrt/firmware_onboarding.git ``` (SSH)
 
 TODO: UPDATE REPO NAME
 
@@ -93,7 +100,7 @@ Your git push should return an error similar to this:
 
 This is because you've only created your branch locally, so Git doesn't know where you want to push you changes on the remote repository. You can just run the command it tells you to ```git push --set-upstream origin <BranchName>``` and it will create your new branch on the remote repository and push your changes to it.
 
-Now, you will create a pull request to have your changes merged to main. Open the GitHub repo (ADD LINK TO REPO HERE). Switch to your branch, open the "Contribute" dropdown and select "Open pull request". Now, you must enter a title and description about the changes made on this branch. Also make sure the top bar has the base set to main or whatever branch you want to merge into and the compare should be your branch. When you're done, you can click the "Create pull request" button at the bottom right. 
+Now, you will create a pull request to have your changes merged to main. Open the GitHub repo (https://github.com/ugrt/firmware_onboarding). Switch to your branch, open the "Contribute" dropdown and select "Open pull request". Now, you must enter a title and description about the changes made on this branch. Also make sure the top bar has the base set to main or whatever branch you want to merge into and the compare should be your branch. When you're done, you can click the "Create pull request" button at the bottom right. 
 
 
 https://github.com/user-attachments/assets/5e257925-d3f1-46f1-8829-805cc9281eb9

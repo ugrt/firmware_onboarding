@@ -1,3 +1,12 @@
+## Table of Contents
+- [Firmware Onboarding](#firmware-onboarding)
+  - [Software for UGRT Firmware](#software-for-ugrt-firmware)
+    - [Linux (Ubuntu)](#linux-ubuntu)
+    - [Git and GitHub](#git-and-github)
+    - [STM32 Cube IDE](#stm32-cube-ide)
+    - [VS Code](#vs-code)
+  - [Other Tools](#other-tools)
+
 # Firmware Onboarding
 **Firmware** is a form of software used for the interfacing of hardware devices. For example, using a microcontroller to control a motor or handling input/output of a keyboard.
 
