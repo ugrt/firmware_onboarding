@@ -96,4 +96,3 @@ Now, you will create a pull request to have your changes merged to main. Open th
 ![](../Assets/PR.mp4)
 
 You'll see a "Merge pull request" button, but you shouldn't click it. First, someone else should review the pull request and your changes. They may leave comments on the pull request with feedback so you can make further changes before merging. Then, the reviewer will merge the pull request and you changes will be on main.
-
