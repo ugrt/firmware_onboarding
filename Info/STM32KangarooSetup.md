@@ -24,7 +24,9 @@ Here are which pins on the STM32F767 Nucleo are used for Kangaroo communication.
   - PC7 -> Rx
 
 ## Configure STM32 Pins
-Here is a PDF showing the setup of the STM32 for communicating with one Kangaroo:
+Here is a PDF showing the setup of the STM32 for communicating with one Kangaroo, just do this for all Kangaroos:
+
 [View on Sharepoint](https://uoguelphca.sharepoint.com/:b:/r/sites/UGRT2/Rover/Firmware/Setup.pdf?csf=1&web=1&e=ITk84)
-[Download from GitHub]()
+
+[Download/View on GitHub](https://github.com/ugrt/firmware_onboarding/blob/main/Assets/Setup.pdf)
 
